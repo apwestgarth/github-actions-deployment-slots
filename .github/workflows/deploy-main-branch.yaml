@@ -6,8 +6,8 @@ on:
     - main
 
 env:
-  WEBAPP_NAME: replace-with-your-webapp-name
-  RESOURCE_GROUP: replace-with-your-rg-name
+  WEBAPP_NAME: apwgithubactionsdeploymentslots
+  RESOURCE_GROUP: apwgithubactionsdeploymentslots
   SLOT_NAME: staging  # Create a slot on your web app called "staging"
 
 jobs:
