@@ -8,8 +8,8 @@ on:
 concurrency: ci-${{ github.event.number }}
 
 env:
-  WEBAPP_NAME: replace-with-your-webapp-name
-  RESOURCE_GROUP: replace-with-your-rg-name
+  WEBAPP_NAME: apwgithubactionsdeploymentslots
+  RESOURCE_GROUP: apwgithubactionsdeploymentslots
   SLOT_NAME: pr-${{ github.event.number }}
 
 jobs:
